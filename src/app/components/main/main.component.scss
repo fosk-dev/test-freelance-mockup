@@ -1,0 +1,246 @@
+#home {
+  height: 100vh;
+  background-image: url("../../../assets/cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: initial;
+}
+
+.logo {
+  width: 40%;
+  height: 100%;
+}
+
+.ft {
+  text-align: center;
+}
+
+.left {
+  color: azure;
+  // background: rgba(41, 189, 18, 0.5);
+  background: linear-gradient(120deg, rgba(49, 192, 27, 0.6) 32%, rgba(170, 149, 16, 0.6) 77%);
+}
+
+.input-content {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+.input-content input {
+  border: none;
+}
+
+.input-content a {
+  color: black;
+}
+
+.menu {
+  height: 55vh;
+  font-family: 'Meiryo';
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  margin: 20px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  text-decoration-line: none;
+  color: azure;
+  font-size: medium;
+}
+
+.menu ul li a:hover {
+  color: black;
+}
+
+.right {
+  color: azure;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#link {
+  height: 30vh;
+  font-size: 15px;
+  font-family: 'Meiryo';
+  font-style: inherit;
+  font-weight: inherit;
+  font-size: large;
+}
+
+#link a {
+  text-decoration: none;
+  text-decoration-line: none;
+  color: azure;
+}
+
+#link a:hover {
+  color: #69CF77;
+}
+
+#right-text {
+  height: 30vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: inherit;
+  font-weight: inherit;
+  font-size: xx-large;
+}
+
+#right-button {
+  height: 30vh;
+}
+
+#discover-text {
+  height: 6vh;
+  background-color: rgb(48, 185, 29);
+  font-family: 'Meiryo';
+  font-style: inherit;
+  font-weight: inherit;
+  color: aliceblue;
+  font-size: large;
+}
+
+#contact-social span {
+  margin-left: 10px;
+}
+
+
+//  CONTACT
+
+#contact {
+  height: 30vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: inherit;
+  font-weight: inherit;
+  font-size: xx-large;
+}
+
+// Form Contact
+
+#form-contact {
+  height: 75vh;
+  background-image: url("../../../assets/contact.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: initial;
+}
+
+.contact-left {
+  color: azure;
+  // background: rgba(41, 189, 18, 0.5);
+  background: linear-gradient(120deg, rgba(49, 192, 27, 0.6) 32%, rgba(170, 149, 16, 0.6) 77%);
+}
+
+.contact-right {
+  color: azure;
+  background-color: rgb(0, 0, 0);
+}
+
+.form-contact-top {
+  height: 20vh;
+}
+
+.form-contact-form {
+  height: 10vh;
+}
+
+.form-contact-body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: inherit;
+  font-weight: inherit;
+  color: aliceblue;
+}
+
+#body-text-1 {
+  font-size: 40px;
+}
+
+#body-text-2 {
+  font-size: 30px;
+}
+
+
+// Help
+
+#help {
+  height: 90vh;
+  background-image: url("../../../assets/help.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  // background-attachment: fixed;
+}
+
+#body-help {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.help-top {
+  height: 3vh;
+}
+
+.help-top-text {
+  height: 2vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: inherit;
+  font-weight: inherit;
+  color: aliceblue;
+}
+
+.help-form {
+  height: 28vh;
+}
+
+#help-text-area {
+  border-style: none;
+}
+
+.help-check {
+  height: 20vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: inherit;
+  font-weight: inherit;
+  color: aliceblue;
+}
+
+#acc-text {
+  height: 7vh;
+  background-color: rgb(48, 185, 29);
+  font-family: 'Meiryo';
+  font-style: inherit;
+  font-weight: inherit;
+  color: aliceblue;
+  font-size: larger;
+}
+
+
+// FOOTER
+
+#footer {
+  height: 70vh;
+  // background-color: rgb(48, 185, 29);
+  // background-image: url("../../../assets/help.jpg");
+  // background: linear-gradient(120deg, rgba(49, 192, 27, 0.3) 32%, rgba(170, 149, 16, 0.3) 77%);
+  
+
+  background: linear-gradient(
+    120deg,
+    rgba(49, 192, 27, 0.3) 32%,
+    rgba(170, 149, 16, 0.3) 77%
+  ),url("../../../assets/foot1.jpg") no-repeat;
+  background-size: cover;
+  
+  font-family: 'Meiryo';
+  font-style: inherit;
+  font-weight: inherit;
+  color: aliceblue;
+}
+
+.footer-top {
+  height: 50vh;
+}
